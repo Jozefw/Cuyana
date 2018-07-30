@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+.site__wrapper{
+    margin: 50px;
+}
+.hero__image{
+        background-image: url(../../images/assets/hero.jpg);
+        background-position: center,center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 599px;
+}
+
