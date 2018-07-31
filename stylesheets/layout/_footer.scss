@@ -1,3 +1,30 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.footer__nav {
+    margin: 2.75rem 0rem;
+
+    &--list-wrapper{
+    }
+    &--list-item{
+        list-style: none;
+        & a{
+            color:#333;
+            font-size:1.75rem;
+            list-style: none;
+            line-height: 1.4;
+            margin: 3.75rem 0rem 2rem 0rem;
+            }
+        }
+    &--list-item:hover{
+        text-decoration: none;
+        color:#333;
+    }
+    }
+    .footer__logo{
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        top: -20px;
+
+    }

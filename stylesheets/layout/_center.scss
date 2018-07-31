@@ -1,0 +1,30 @@
+.center-section__wrapper{
+
+}
+     .center-section__book-list {
+            display: -webkit-flex;
+            -webkit-flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
+            & .image__wrapper{
+                display: flex;
+                flex-direction: column;
+                width:22%;
+               & .image__title {
+                    text-align: center;
+                    font-family: lato;
+                    font-size: 1.5rem;
+                    padding: .5rem 0rem;
+                }
+                & .image_pic {
+                    width: 70%;
+                    text-align: center;
+                    margin: 0 auto;
+                    display: inline-block;
+                    border: 39px solid beige;
+                    box-sizing: content-box;
+                }
+                
+            }
+
+        }
