@@ -5,6 +5,19 @@
 
 .site__wrapper{
     margin: 50px;
+    font-family: 'Lato', sans-serif;
+
+    & .header__wrapper {
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5rem;
+        & .header__main-copy{
+            margin-bottom: .125rem
+        }
+        & .header__secondary-copy {
+            font-size: 2rem;
+            margin-bottom: 2.2rem;
+        }
+    }
 }
 .hero__image{
         background-image: url(../../images/assets/hero.jpg);
@@ -12,5 +25,73 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 599px;
+}
+.nav__section{
+
+    &--list{
+        list-style:none;
+        padding-left: 2rem;
+        letter-spacing: 3px;
+        & li{
+            text-decoration: none;
+            font-size: 1.8rem;
+            line-height: 3.5;
+            -moz-transition: all .3s ease; 
+            -webkit-transition: all .3s ease;  
+            -ms-transition: all .3s ease;  
+            -o-transition: all .3s ease;  
+            transition: all .3s ease; 
+            &:hover{
+                font-size:2rem;
+            }
+            & a{
+                color:#333;
+                transition: all .2s ease-in-out;
+                text-decoration: none;
+                &:hover{
+                    color:#999;
+                    transform:scale(1.2);
+                }
+            }
+        }
+    }
+}
+
+.story__wrapper{
+    background-color: rgba(51, 51, 51, 0.65);
+    position: absolute;
+    top: 85%;
+    border: none;
+    color: rgba(255, 255, 255, .85);
+    padding: 3.5rem 2.5rem 2.5rem 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    left: 50%;
+
+    &--header{
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        font-family: lato;
+        font-weight: 100;
+
+        &-copy{
+            line-height: 1.8;
+            font-size: 1.8rem;
+            margin-bottom: 2.5rem;
+        }
+        &-cta{
+            text-decoration: underline;
+            color: rgba(255, 255, 255, .85);
+            margin: 2rem 0rem;
+            font-size: 1.8rem;
+            -moz-transition: all .3s ease; 
+            -webkit-transition: all .3s ease;  
+            -ms-transition: all .3s ease;  
+            -o-transition: all .3s ease;  
+            transition: all .3s ease; 
+            &:hover{
+                color:#fff;
+            }
+        }
+    }
 }
 
