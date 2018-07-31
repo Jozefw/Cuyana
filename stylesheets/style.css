@@ -529,8 +529,7 @@ body {
       transition: all .2s ease-in-out;
       text-decoration: none; }
       .nav__section--list li a:hover {
-        color: #999;
-        transform: scale(1.2); }
+        color: #999; }
 
 .story__wrapper {
   background-color: rgba(51, 51, 51, 0.65);
@@ -594,10 +593,12 @@ body {
       font-size: 1.75rem;
       list-style: none;
       line-height: 1.4;
-      margin: 3.75rem 0rem 2rem 0rem; }
-  .footer__nav--list-item:hover {
-    text-decoration: none;
-    color: #333; }
+      margin: 3.75rem 0rem 2rem 0rem;
+      transition: all .8s ease-in-out; }
+    .footer__nav--list-item a:hover {
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase; }
 
 .footer__logo {
   position: relative;
